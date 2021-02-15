@@ -1103,7 +1103,7 @@ public class AtomicCmpXchgInstruction public constructor(ptr: LLVMValueRef) : In
 public class AtomicRMWInstruction
 // public class BinaryOperatorInstruction
 
-public open class BranchInst
+public open class BranchInstruction
 public class InvokeInstruction
 public class CallBrInstruction
 public class CallInstruction
@@ -1142,3 +1142,5 @@ public class LoadInstruction
 public class VAArgInstruction
 
 public class UnreachableInstruction
+
+public class FuncletPadInstruction
